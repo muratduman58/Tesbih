@@ -1,27 +1,18 @@
 {
   "app": {
-    "bundleName": "com.example.tesbih",
     "vendor": "example",
+    "bundleName": "com.example.tesbih",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
     }
   },
-  "deviceConfig": {
-  },
+  "deviceConfig": {},
   "module": {
-    "package": "com.example.tesbih",
-    "name": ".MyApplication",
     "mainAbility": "com.example.tesbih.MainAbility",
     "deviceType": [
       "wearable"
     ],
-    "distro": {
-      "deliveryWithInstall": true,
-      "moduleName": "entry",
-      "moduleType": "entry",
-      "installationFree": false
-    },
     "abilities": [
       {
         "skills": [
@@ -34,19 +25,28 @@
             ]
           }
         ],
+        "visible": true,
         "name": "com.example.tesbih.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
         "label": "$string:entry_MainAbility",
         "type": "page",
-        "visible": true,
         "launchType": "standard"
       }
     ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.example.tesbih",
+    "name": ".MyApplication",
     "js": [
       {
         "pages": [
-          "pages/index/index"
+          "pages/index/index",
+          "pages/main/main"
         ],
         "name": "default",
         "window": {
