@@ -1,8 +1,7 @@
 
 <div class="container">
     <div class="left">
-        <button class="text" onclick="tesbihClick">Arttır</button>
-
+        <text class="text" onclick="tesbihClick">tesbih</text>
     </div>
     <div class="right">
         <div class="text">selavat</div>

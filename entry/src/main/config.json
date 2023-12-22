@@ -46,7 +46,8 @@
       {
         "pages": [
           "pages/index/index",
-          "pages/main/main"
+          "pages/main/main",
+          "pages/salavat/salavat"
         ],
         "name": "default",
         "window": {
