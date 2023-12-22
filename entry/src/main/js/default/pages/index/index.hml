@@ -1,0 +1,8 @@
+<div class="tesbih-container">
+
+
+    <button class="reset-button" onclick="resetSayac()">Sıfırla</button>
+    <button onclick="sayacArttir">Arttır</button>
+    {{sayac}}
+    <input type="button" value="Change" onclick="sayacArttir"></input>
+</div>
