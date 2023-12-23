@@ -48,7 +48,8 @@
           "pages/index/index",
           "pages/main/main",
           "pages/salavat/salavat",
-          "pages/settings/settings"
+          "pages/settings/settings",
+          "pages/tesbih/tesbih"
         ],
         "name": "default",
         "window": {

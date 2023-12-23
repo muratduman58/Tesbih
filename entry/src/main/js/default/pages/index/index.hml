@@ -1,9 +1,9 @@
 
 <div class="container">
     <div class="left">
-        <text class="text" onclick="tesbihClick">tesbih</text>
+        <text class="text" onclick="tesbihClick">TESBİH</text>
     </div>
     <div class="right">
-        <div class="text">selavat</div>
+        <div class="text">SELAVAT</div>
     </div>
 </div>

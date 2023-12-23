@@ -30,18 +30,25 @@
 }
 
 .left {
-    background: linear-gradient(to right, #3498db, #5d9cec);
+
     color: #fff;
+    background-image: url('/common/images/tesbih.png');
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .right {
-    background: linear-gradient(to right, #2ecc71, #48db6c);
+
     color: #fff;
+    background-image: url('/common/images/tesbih.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .text {
     margin: 0;
-    font-size: 30px;
+    font-size: 15px;
     letter-spacing: 2px; /* Aralık ekleyerek daha estetik bir görünüm sağlar */
     font-weight: 700; /* Kalın yazı stilini kullanır */
     z-index: 999;
