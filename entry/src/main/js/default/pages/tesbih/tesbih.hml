@@ -1,5 +1,12 @@
-<div class="container">
-    <text class="title">
-        {{ title }}
-    </text>
-</div>
+<swiper class="container" index="{{index}}">
+    <div class="swiper-item primary-item" onclick="TesbihOneClick">
+        <text>{{TesbihOne}}</text>
+
+    </div>
+    <div class="swiper-item warning-item" onclick="TesbihTwoClick">
+        <text>{{TesbihTwo}}</text>
+    </div>
+    <div class="swiper-item success-item" onclick="TesbihThreeClick">
+        <text>{{TesbihThree}}</text>
+    </div>
+</swiper>

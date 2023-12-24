@@ -1,8 +1,28 @@
+
 export default {
     data: {
-        title: ""
+        index: 0,
+        salavatOne:33
     },
-    onInit() {
-        this.title = "Hello World";
-    }
+
+    salavatOneClick()
+    {
+        let vm = this;
+        vm.salavatOne--
+        if(vm.salavatOne==0)
+        {
+            vm.index = 1
+        }
+
+    },
+    salavatClick()
+    {
+        let vm = this;
+        vm.salavatOne--
+        if(vm.salavatOne==0)
+        {
+            vm.index = 1
+        }
+
+    },
 }
