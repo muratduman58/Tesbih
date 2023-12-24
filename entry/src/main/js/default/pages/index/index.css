@@ -7,24 +7,27 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    border-radius: 500px;
-    border-color: red;
-    border:1px;
 
 }
 .tesbih{
 
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 100px;
     margin: 1px;
     text-align: center;
     width: 100%;
-    height: 50%;
-    background: linear-gradient(to right, #ff758c, #ff7eb3); /* Farklı bir Gradient renk efekti */
+    height: 100%;
+    background-image: url("common/images/tesbih.png");
+    background-position: center;
+    background-size: cover;
 }
 .salavat {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     margin: 1px;
     text-align: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     background: linear-gradient(to right, #ff758c, #ff7eb3); /* Farklı bir Gradient renk efekti */
 }
 .cizgi{
@@ -33,14 +36,23 @@
 
 }
 
-.text {
-    margin: 0;
+.SalavatText {
+    padding-top: 10px;
     font-size: 30px;
     letter-spacing: 4px; /* Aralık ekleyerek daha estetik bir görünüm sağlar */
     font-weight: 700; /* Kalın yazı stilini kullanır */
     z-index: 999;
     text-align: center;
-
+    width: 100%;
+    margin: 20px 0;
+}
+.tesbihText {
+    padding-top: 10px;
+    font-size: 30px;
+    letter-spacing: 4px; /* Aralık ekleyerek daha estetik bir görünüm sağlar */
+    font-weight: 700; /* Kalın yazı stilini kullanır */
+    z-index: 999;
+    text-align: center;
     width: 100%;
     margin: 20px 0;
 }
