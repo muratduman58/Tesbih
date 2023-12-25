@@ -1,0 +1,4 @@
+<div class="container">
+    <text>{{tesbih}}</text>
+<text onclick="TesbihClick">{{$t('strings.TesbihOne')}}</text>
+</div>

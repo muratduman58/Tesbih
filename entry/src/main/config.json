@@ -1,7 +1,6 @@
 {
   "app": {
     "vendor": "example",
-
     "bundleName": "com.example.tesbih",
     "version": {
       "code": 1000000,
@@ -33,7 +32,6 @@
         "label": "$string:entry_MainAbility",
         "type": "page",
         "launchType": "standard"
-
       }
     ],
     "distro": {
@@ -50,7 +48,10 @@
           "pages/index/index",
           "pages/salavat/salavat",
           "pages/settings/settings",
-          "pages/tesbih/tesbih"
+          "pages/tesbih/tesbih",
+          "pages/TesbihOne/TesbihOne",
+          "pages/tesbihOne/tesbihOne",
+          "pages/tesbihTwo/tesbihTwo"
         ],
         "name": "default",
         "window": {
