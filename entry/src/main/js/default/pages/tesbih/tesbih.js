@@ -2,11 +2,29 @@
 export default {
     data: {
         index: 0,
+        TesbihText:"Suphanallah",
         TesbihOne:3,
         TesbihTwo:3,
         TesbihThree:3,
     },
+    onShow()
+    {
 
+    },
+    DetechSwipe()
+    {
+        let vm = this;
+        switch (vm.index) {
+            case 0: vm.TesbihText="Suphanallah";
+                break;
+            case 1:vm.TesbihText="Elhamdulilah";
+                break;
+            case 2:vm.TesbihText="Allah'u Ekber";
+                break;
+
+        }
+        console.log(vm.TesbihText)
+    },
     TesbihOneClick()
     {
         let vm = this;

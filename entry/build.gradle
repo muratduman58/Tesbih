@@ -2,6 +2,17 @@ apply plugin: 'com.huawei.ohos.hap'
 apply plugin: 'com.huawei.ohos.decctest'
 //For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides-V3/ide_debug_device-0000001053822404-V3#section1112183053510
 ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Kodlar\\Tesbih\\TesbihSertifika.p12')
+            storePassword '00000019430756761E4643426DE04044A4C636F12692E2941B8F3AC64AC17C567FA4D6555C535133F0'
+            keyAlias = 'MD'
+            keyPassword '000000196305CE6A402E76FE6922DB091FFE57FF7D08C2001B9EC75CBC63BEF2B25C2B60BD4510C411'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Kodlar\\Tesbih\\TesbihProvisionDebug.p7b')
+            certpath file('C:\\Kodlar\\Tesbih\\TesbihSertifika.cer')
+        }
+    }
     compileSdkVersion 6
     defaultConfig {
         compatibleSdkVersion 6

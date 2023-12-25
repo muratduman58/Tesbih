@@ -1,12 +1,15 @@
-<swiper class="container" index="{{index}}">
+<swiper class="container" index="{{index}}" onswipe="DetechSwipe">
     <div class="swiper-item primary-item" onclick="TesbihOneClick">
+        <text>{{TesbihText}}</text>
         <text>{{TesbihOne}}</text>
 
     </div>
     <div class="swiper-item warning-item" onclick="TesbihTwoClick">
+        <text>{{TesbihText}}</text>
         <text>{{TesbihTwo}}</text>
     </div>
     <div class="swiper-item success-item" onclick="TesbihThreeClick">
+        <text>{{TesbihText}}</text>
         <text>{{TesbihThree}}</text>
     </div>
 </swiper>

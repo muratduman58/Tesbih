@@ -4,7 +4,7 @@ export default {
 router.push({
     uri:"pages/tesbih/tesbih"
 })
-        console.log("sdasdasd")
+
     }
 
 }

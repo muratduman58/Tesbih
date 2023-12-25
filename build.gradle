@@ -3,6 +3,26 @@ apply plugin: 'com.huawei.ohos.app'
 
 //For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides-V3/ide_debug_device-0000001053822404-V3#section1112183053510
 ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Kodlar\\Tesbih\\TesbihSertifika.p12')
+            storePassword '00000019C3AA9CE1075BB7DEB9D0CAF74BAD2FD1B43853B2E3F2D5EA7606C7EC08327ECD451F3A3C73'
+            keyAlias = 'MD'
+            keyPassword '0000001922148E1A6120FAF315E9C3966D7AA2C16088ABD507DB04A52F64882AD64D0A00E0B448ED91'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Kodlar\\Tesbih\\TesbihProvisionDebug.p7b')
+            certpath file('C:\\Kodlar\\Tesbih\\TesbihSertifika.cer')
+        }
+        release {
+            storeFile file('C:\\Kodlar\\Tesbih\\TesbihSertifika.p12')
+            storePassword '0000001967456C78DB0830171821867AB0A9AC9BCF3AD58644A8A312DD131DEAC167DA0B4C13EEEAE6'
+            keyAlias = 'MD'
+            keyPassword '000000194933562C8E50379C9971310FE3345C8BA65D62E768A92A08D010CCDC64D3C85BA85A44BFBE'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Kodlar\\Tesbih\\TesbihProvisionReleaseRelease.p7b')
+            certpath file('C:\\Kodlar\\Tesbih\\TesbihSertifikaRelease.cer')
+        }
+    }
     compileSdkVersion 6
 }
 
