@@ -1,4 +1,15 @@
 <div class="container">
-    <text>{{tesbih}}</text>
-<text onclick="TesbihClick">{{$t('strings.TesbihOne')}}</text>
+    <stack class="back">
+        <div class="stackOne bd-radius">
+            <text class="animated-div text">{{tesbih}}</text>
+        </div>
+        <div class="stackTwo bd-radius">
+            <text onclick="TesbihClick">{{$t('strings.TesbihOne')}}</text>
+        </div>
+        <div class="stackThree bd-radius">
+            <text onclick="TesbihClick">{{$t('strings.TesbihOne')}}</text>
+        </div>
+    </stack>
+
+
 </div>

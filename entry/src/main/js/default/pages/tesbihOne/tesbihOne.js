@@ -18,8 +18,10 @@ export default {
             })
         }  
     },
+
     TesbihClick()
     {
+
         let vm = this;
         vm.tesbih--
         this.tesbihControl()
