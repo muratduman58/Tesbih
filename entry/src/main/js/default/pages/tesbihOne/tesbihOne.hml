@@ -2,7 +2,7 @@
     <stack class="back">
 
 
-        <div class="stackOne bd-radius">
+        <div class="stackOne bd-radius" onclick="TesbihClick">
             <text class="text">{{tesbih}}</text>
         </div>
         <div class="stackTwo bd-radius">
@@ -12,11 +12,11 @@
         <div class="stylish-line stackThree"></div>
 
         <div class="stackReset bd-radius">
-            <image src="/common/images/refresh_icon1.png" class="image"></image>
+            <image src="/common/images/refresh_icon1.png" class="image" onclick="tesbihReset"></image>
 
         </div>
         <div class="stackMinus bd-radius">
-            <image src="/common/images/minus_icon.png" class="image"></image>
+            <image src="/common/images/minus_icon.png" class="image" onclick="tesbihMinus"></image>
 
         </div>
     </stack>

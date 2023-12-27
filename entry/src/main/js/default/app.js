@@ -1,3 +1,4 @@
+import  globalV from '../globalVariables.js'
 
 export default {
 
