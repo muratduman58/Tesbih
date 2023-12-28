@@ -51,7 +51,10 @@
           "pages/tesbih/tesbih",
           "pages/TesbihOne/TesbihOne",
           "pages/tesbihOne/tesbihOne",
-          "pages/tesbihTwo/tesbihTwo"
+          "pages/tesbihTwo/tesbihTwo",
+          "pages/tesbihThree/tesbihThree",
+          "pages/salavatHome/salavatHome",
+          "pages/salavatList/salavatList"
         ],
         "name": "default",
         "window": {

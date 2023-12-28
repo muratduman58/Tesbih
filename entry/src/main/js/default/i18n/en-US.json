@@ -2,6 +2,10 @@
   "strings": {
     "TesbihOne": "Suphannallah",
     "TesbihTwo": "Elhamdulillah",
-    "TesbihThree":"Allah'u Ekber"
+    "TesbihThree":"Allah'u Ekber",
+    "indexTesbih": "TESBİH",
+    "indexSalavat": "SALAVAT",
+    "SalavatCurrent": "CURRENT LİST",
+    "SalavatNew": "NEW LİST"
   }
 }

@@ -1,17 +1,13 @@
 import router from '@system.router';
-
+import global from '../../globalVariables'
 export default {
     data: {
-        tesbihCount:3,
+
         tesbih:0,
-
-
-
     },
-
     tesbihControl()
     {
-        if (this.tesbih==this.tesbihCount) {
+        if (this.tesbih==global.data.tesbihCount) {
 
             router.push({
                 uri:"pages/tesbihTwo/tesbihTwo"
@@ -21,7 +17,7 @@ export default {
 
     tesbihReset()
     {
-    this.tesbih = this.tesbihCount
+    this.tesbih = 0
     },
     tesbihMinus()
     {
@@ -33,13 +29,13 @@ export default {
     TesbihClick()
     {
 
-        if (this.tesbih <this.tesbihCount) {
+        if (this.tesbih < global.data.tesbihCount) {
             let vm = this;
             vm.tesbih = vm.tesbih +1
-            this.tesbihControl()
+
         }
 
-
+        this.tesbihControl()
 
 
     },

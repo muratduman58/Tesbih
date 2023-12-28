@@ -33,7 +33,7 @@
 
 }
 
-.SalavatText {
+.currentText {
     padding-top: 10px;
     font-size: 30px;
     letter-spacing: 4px; /* Aralık ekleyerek daha estetik bir görünüm sağlar */
@@ -43,7 +43,7 @@
     width: 100%;
     margin: 20px 0;
 }
-.tesbihText {
+.newText {
     padding-top: 10px;
     font-size: 30px;
     letter-spacing: 4px; /* Aralık ekleyerek daha estetik bir görünüm sağlar */

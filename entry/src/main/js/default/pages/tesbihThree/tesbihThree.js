@@ -10,7 +10,7 @@ export default {
         if (this.tesbih==global.data.tesbihCount) {
 
             router.push({
-                uri:"pages/tesbihThree/tesbihThree"
+                uri:"pages/index/index"
             })
         }
     },

@@ -6,7 +6,7 @@
             <text class="text">{{tesbih}}</text>
         </div>
         <div class="stackTwo bd-radius">
-            <text>{{$t('strings.TesbihOne')}}</text>
+            <text>{{$t('strings.TesbihThree')}}</text>
 
         </div>
         <div class="stylish-line stackThree"></div>

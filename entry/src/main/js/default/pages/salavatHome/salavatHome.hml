@@ -1,0 +1,11 @@
+
+<div class="container">
+    <div class="tesbih"  onclick="tesbihClick">
+        <text class="currentText">{{$t('strings.SalavatCurrent')}}</text>
+
+    </div>
+    <div class="cizgi"></div>
+    <div class="salavat">
+        <text class="newText">{{$t('strings.SalavatNew')}}</text>
+    </div>
+</div>

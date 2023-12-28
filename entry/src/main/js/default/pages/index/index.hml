@@ -1,10 +1,11 @@
 
 <div class="container">
     <div class="tesbih"  onclick="tesbihClick">
-        <text class="tesbihText">TESBİH</text>
+        <text class="tesbihText">{{$t('strings.indexTesbih')}}</text>
+       
     </div>
  <div class="cizgi"></div>
-    <div class="salavat">
-        <text class="SalavatText">SELAVAT</text>
+    <div class="salavat" onclick="salavatClick">
+        <text class="SalavatText">{{$t('strings.indexSalavat')}}</text>
     </div>
 </div>
