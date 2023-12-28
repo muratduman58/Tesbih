@@ -23,7 +23,7 @@ data:{
     newListClick()
     {
         this.createList()
-        this.createList()
+        this.returnList()
     },
     currentListClick()
     {
@@ -31,9 +31,12 @@ data:{
     },
     createList()
     {
+
         var id = this.lastListNumber()
         this.List.push("Liste-",id)
         dataManager.storageSet("Lists",this.List)
+        this.returnList()
+
 
     },
     getList()

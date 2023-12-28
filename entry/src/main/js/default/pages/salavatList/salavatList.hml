@@ -1,9 +1,9 @@
 <!-- index.hml -->
 <div class="container">
     <list class="custom-list">
-        <list-item for="{{todolist}}">
+        <list-item for="{{List}}">
             <div style="flex-direction: column;align-items: center;justify-content: center;">
-                <marquee class="customMarquee" scrollamount="4">{{$item[0]}}</marquee>
+                <marquee class="customMarquee" scrollamount="4">{{$item}}</marquee>
 
             </div>
         </list-item>
