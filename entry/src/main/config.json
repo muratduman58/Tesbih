@@ -46,7 +46,7 @@
       {
         "pages": [
           "pages/index/index",
-          "pages/salavat/salavat",
+
           "pages/settings/settings",
           "pages/tesbih/tesbih",
           "pages/TesbihOne/TesbihOne",
@@ -54,7 +54,8 @@
           "pages/tesbihTwo/tesbihTwo",
           "pages/tesbihThree/tesbihThree",
           "pages/salavatHome/salavatHome",
-          "pages/salavatList/salavatList"
+          "pages/salavatList/salavatList",
+          "pages/message/message"
         ],
         "name": "default",
         "window": {
@@ -62,6 +63,7 @@
           "autoDesignWidth": true
         }
       }
+
     ]
   }
 }

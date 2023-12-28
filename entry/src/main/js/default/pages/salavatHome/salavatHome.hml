@@ -1,11 +1,11 @@
 
 <div class="container">
-    <div class="tesbih"  onclick="tesbihClick">
+    <div class="tesbih" onclick="currentListClick">
         <text class="currentText">{{$t('strings.SalavatCurrent')}}</text>
 
     </div>
     <div class="cizgi"></div>
-    <div class="salavat">
+    <div class="salavat" onclick="newListClick">
         <text class="newText">{{$t('strings.SalavatNew')}}</text>
     </div>
 </div>
