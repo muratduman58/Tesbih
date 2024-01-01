@@ -5,7 +5,9 @@
        
     </div>
  <div class="cizgi"></div>
-    <div class="salavat" onclick="salavatClick">
+    <div class="salavat">
         <text class="SalavatText">{{$t('strings.indexSalavat')}}</text>
+
+        <text class="altText">{{$t('strings.ComingSoon')}}</text>
     </div>
 </div>

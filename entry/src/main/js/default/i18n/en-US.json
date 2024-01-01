@@ -1,11 +1,13 @@
 {
   "strings": {
-    "TesbihOne": "Suphannallah",
-    "TesbihTwo": "Elhamdulillah",
-    "TesbihThree":"Allah'u Ekber",
-    "indexTesbih": "TESBİH",
-    "indexSalavat": "SALAVAT",
+    "TesbihOne": "Subhanallah",
+    "TesbihTwo": "Alhamdulillah",
+    "TesbihThree":"Allah'u Akbar",
+    "indexTesbih": "TASBEEH",
+    "indexSalavat": "SALAWAT",
     "SalavatCurrent": "CURRENT LİST",
-    "SalavatNew": "NEW LİST"
+    "SalavatNew": "NEW LİST",
+    "ListText": "List-",
+    "ComingSoon": "(COMİNG SOON)"
   }
 }

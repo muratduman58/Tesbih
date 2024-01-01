@@ -4,9 +4,11 @@ export default {
     data: {
 
         tesbih:0,
+        class:"text fade-in-text"
     },
     tesbihControl()
     {
+
         if (this.tesbih==global.data.tesbihCount) {
 
             router.push({
@@ -29,6 +31,8 @@ export default {
     TesbihClick()
     {
 
+        this.class =""
+        this.class ="text fade-in-text"
         if (this.tesbih < global.data.tesbihCount) {
             let vm = this;
             vm.tesbih = vm.tesbih +1

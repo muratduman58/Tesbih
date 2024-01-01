@@ -3,7 +3,7 @@
 
 
         <div class="stackOne bd-radius" onclick="TesbihClick">
-            <text class="text">{{tesbih}}</text>
+            <text class="text" ref="tesbihTextDiv">{{tesbih}}</text>
         </div>
         <div class="stackTwo bd-radius">
             <text>{{$t('strings.TesbihOne')}}</text>

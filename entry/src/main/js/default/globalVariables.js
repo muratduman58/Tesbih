@@ -1,6 +1,6 @@
 export default {
 
 data:{
-    tesbihCount:3
+    tesbihCount:33
 }
 };

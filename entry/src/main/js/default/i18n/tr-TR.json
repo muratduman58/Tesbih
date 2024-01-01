@@ -6,6 +6,8 @@
     "indexTesbih": "TESBİH",
     "indexSalavat": "SALAVAT",
     "SalavatCurrent": "MEVCUT LİSTE",
-    "SalavatNew": "YENİ LİSTE"
+    "SalavatNew": "YENİ LİSTE",
+    "ListText": "Liste-",
+    "ComingSoon": "(Yakında)"
   }
 }
