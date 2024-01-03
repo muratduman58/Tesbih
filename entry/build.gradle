@@ -12,6 +12,15 @@ ohos {
             profile file('C:\\Kodlar\\Tesbih\\TesbihProvisionDebug.p7b')
             certpath file('C:\\Kodlar\\Tesbih\\TesbihSertifika.cer')
         }
+        release {
+            storeFile file('C:\\Kodlar\\Tesbih\\TesbihSertifika.p12')
+            storePassword '00000019B7E9E0218F8CECE4FA7D89AEC56BCE892ABF1061CFB9028C61AA84E242951D4117C8BE6ADB'
+            keyAlias = 'MD'
+            keyPassword '00000019C2F06747969447DA16DB71810D4A880D8D0C4C7F80569030C4D2763D462C7AD6F5C91D716F'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Kodlar\\Tesbih\\TesbihProvisionReleaseRelease.p7b')
+            certpath file('C:\\Kodlar\\Tesbih\\TesbihSertifikaRelease.cer')
+        }
     }
     compileSdkVersion 6
     defaultConfig {
